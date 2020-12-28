@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 30px
+}
+
+body{
+  background-attachment: fixed;
+}
+
+.main_window{
+  margin: 20px auto;
+  padding: 15px;
+  height: 800px;
+  width: 450px;
+  background-color: #a9a;
+}
+
+.input{
+  background-color: #aaa;
+  padding: 15px;
+  display: block;
+}
+
+.input_bar{
+  width: 240px;
+  background-color: #999;
+}
+
+.input_S{
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.input_S_text{
+  display: inline;
+  float: left;
+}
+
+.input_S_input{
+  display: inline;
+  float: right;
+}
+
+.input_V0{
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.input_V0_text{
+  display: inline;
+  float: left;
+}
+
+.input_V0_input{
+  display: inline;
+  float: right;
+}
+
+ .input_t{
+   display: table-row;
+   margin-bottom: 10px;
+ }
+
+ .input_t_text{
+   display: inline;
+   float: left;
+ }
+
+ .input_t_input{
+   display: inline;
+   float: right;
+ }
+
+.input_a{
+  display: table-row;
+  margin-bottom: 10px;
+}
+
+.input_a_text{
+  display: inline;
+  float: left;
+}
+
+.input_a_input{
+  display: inline;
+  float: right;
+}
+
+.main_part{
+  background-color: #bbb;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+
+.resault_window{
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.button{
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+.info{
+  padding: 15px;
+}

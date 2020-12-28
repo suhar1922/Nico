@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Лёха решает физику</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="main_window">
+      <div class="input">
+        <div class="input_S">
+          <div class="input_S_text">
+            Значение S:
+          </div>
+          <div class="input_S_input">
+            <input type="text" class="input_bar" id="iput_S" value="">
+          </div>
+        </div>
+        <div class="input_V0">
+          <div class="input_V0_text">
+            Значение V0:
+          </div>
+          <div class="input_V0_input">
+            <input type="text" class="input_bar" id="iput_V0" value="">
+          </div>
+        </div>
+        <div class="input_t">
+          <div class="input_t_text">
+            Значение t:
+          </div>
+          <div class="input_t_input">
+            <input type="text" class="input_bar" id="iput_t" value="">
+          </div>
+        </div>
+        <div class="input_a">
+          <div class="input_a_text">
+            Значение a:
+          </div>
+          <div class="input_a_input">
+            <input type="text" class="input_bar" id="iput_a" value="">
+          </div>
+        </div>
+      </div>
+      <div class="main_part">
+        <div class="resault_window">
+          Введите значения переменных
+        </div>
+        <button class="button" type="button" onclick="operation()">Вычислить</button>
+      </div>
+      <div class="info">
+        Чтобы найти какую-то переменныю надо просто не вводить в её окно что-либо.
+        Где-то имеется ошибка в формуле, мне лень её искать.
+        Для "t" "V0" вводить необязательно, так как я брал V0 как нуль.
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="script.js"></script>
+</html>
